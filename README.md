@@ -1,6 +1,6 @@
 # Portfólio
 
-Olá, seja bem vindo ao meu projeto de portfólio criando durante os cursos de HTML+CSS da Alura.
+Olá, seja bem vindo ao meu projeto de portfólio criado durante os cursos de HTML+CSS da Alura.
 
 ## Ferramentas utilizadas:
 
