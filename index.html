@@ -5,21 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link" href="index.html">Home</a>
+            <a class="cabecalho_menu_link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao_conteudo">
             <h1 class="apresentacao_conteudo_titulo">Conheça uma iniciante programadora <strong class="titulo-destaque">Front-End de qualidade!</strong></h1>
-            <p class="apresentacao_conteudo_texto">Olá! Sou Ana Souza, futura desenvolvedora Front-end com especialidade em React, HTML e CSS. Estudo atualmente nas áreas acima, com adição de JavaScript e estou buscando oportunidades para mostrar meu conhecimento.</p>
+            <p class="apresentacao_conteudo_texto">Olá! Sou Ana Souza, futura desenvolvedora Front-end com especialidade em React, HTML e CSS. Estudo atualmente nas áreas acima, com adição de JavaScript e estou buscando oportunidades para mostrar meu conhecimento. Vamos conversar?</p>
             <div class="apresentacao_links">
-                <a class="apresentacao_links_link" href="https://www.instagram.com/anac.msouza/">Instagram</a>
-                <a class="apresentacao_links_link" href="https://github.com/anacarolinams">Github</a>
+                <h2 class="apresentacao_links_subtitulo">Acesse as minhas redes:</h2>
+                <a class="apresentacao_links_navegacao" href="https://github.com/anacarolinams">
+                    <img src="./assets/github.png" alt="Logo do Github"> 
+                    Github
+                </a>
+                <a class="apresentacao_links_navegacao" href="https://www.linkedin.com/in/anacsmedeiros/">
+                    <img src="./assets/linkedin.png" alt="Logo do Linkedin"> 
+                    LinkedIn
+                </a>                
+                <a class="apresentacao_links_navegacao" href="https://www.instagram.com/anac.msouza/">
+                    <img src="./assets/instagram.png" alt="Logo do Instagram"> 
+                    Instagram
+                </a>
             </div>
         </section>
-        <img src="profilepicture.png" alt="Foto da Ana Souza">
+        <img class="apresentacao_imagem" src="./assets/profilepicture.png" alt="Foto da Ana Souza">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Ana Souza.</p>
+    </footer>
 </body>
 </html>
